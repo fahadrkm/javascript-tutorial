@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ID vs Class Example</title>
+
+  <!-- CSS goes here -->
+  <style>
+    /* Styling for ID selector */
+    #main-text {
+      color: blue;
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    /* Styling for Class selector */
+    .highlight {
+      background-color: yellow;
+      color: black;
+      padding: 10px;
+      margin: 5px 0;
+    }
+
+    /* Universal selector - just to show usage */
+    * {
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Understanding ID and Class in HTML</h2>
+
+  <!-- This paragraph uses an ID -->
+  <p id="main-text">This paragraph uses an ID selector (#main-text).</p>
+
+  <!-- These paragraphs use the same class -->
+  <p class="highlight">This is the first paragraph with class "highlight".</p>
+  <p class="highlight">This is the second paragraph with class "highlight".</p>
+
+</body>
+</html>

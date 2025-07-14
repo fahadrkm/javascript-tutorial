@@ -1,0 +1,82 @@
+JavaScript Full Stack Developer Roadmap
+🔹 Phase 1: JavaScript Core (Days 1–5)
+ Learn variables (var, let, const)
+
+ Understand data types and operators
+
+ Practice control structures (if, switch)
+
+ Use loops (for, while, for...of, for...in)
+
+ Mini Project: Number guessing game or FizzBuzz
+
+🔹 Phase 2: Functions & Scope (Days 6–7)
+ Function declarations and expressions
+
+ Arrow functions
+
+ Understand global vs local scope
+
+ Learn closures
+
+ Mini Project: Calculator with multiple modes
+
+🔹 Phase 3: Arrays & Objects (Days 8–10)
+ Learn array methods: push, map, filter, reduce
+
+ Work with objects: add, remove, update keys
+
+ Use object/array destructuring
+
+ Apply spread/rest operators
+
+ Mini Project: To-do list manager in the console
+
+🔹 Phase 4: DOM Manipulation & Events (Days 11–13)
+ Use querySelector, getElementById, etc.
+
+ Handle events: click, input, submit
+
+ Validate form input
+
+ Dynamically create or delete DOM elements
+
+ Project: Grocery list web app
+
+🔹 Phase 5: ES6+ & Modern JavaScript (Days 14–16)
+ Understand let vs const
+
+ Use template literals, arrow functions
+
+ Destructure arrays/objects
+
+ Apply spread/rest, ternary, optional chaining
+
+ Refactor a previous project using ES6+
+
+🔹 Phase 6: Asynchronous JavaScript (Days 17–19)
+ Learn setTimeout and setInterval
+
+ Understand Promises and chaining
+
+ Use fetch() for API calls
+
+ Implement async/await
+
+ Project: Weather App using OpenWeatherMap API
+
+🔹 Phase 7: JS in the Browser (Days 20–21)
+ Learn about localStorage and sessionStorage
+
+ Practice using browser events
+
+ Convert objects to/from JSON
+
+ Project: Bookmark manager with persistent storage
+
+🔹 Bonus: Advanced Concepts
+ Learn about prototypes and inheritance
+
+ Use ES6 classes
+
+ Explore functional programming (pure functions, immutability)
