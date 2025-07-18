@@ -1,0 +1,19 @@
+function Person(firstName, lastName, age, eyeColor) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.age = age;
+  this.eyeColor = eyeColor;
+}
+
+Person.prototype.changeName = function(name) {
+  this.lastName = name;
+};
+
+const myMother = new Person("Sally", "Rally", 48, "green");
+const myfather = new Person("tally", "jally", 48, "black");
+
+myMother.changeName("Doe");
+myfather.changeName("father");
+
+console.log(myMother.lastName); // Output: "Doe"
+console.log(myfather.lastName); // Output: "father"

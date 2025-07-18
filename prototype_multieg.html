@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Prototype Comparison</title>
+</head>
+<body>
+
+<h2>JavaScript Constructor Function and Prototype Demo</h2>
+
+<p id="result1"></p>
+<p id="result2"></p>
+<p id="result3"></p>
+<p id="result4"></p>
+
+<script>
+// Constructor function
+function Car(make, model) {
+  this.make = make;
+  this.model = model;
+}
+
+// Shared method using prototype
+Car.prototype.getDetails = function () {
+  return this.make + " " + this.model;
+};
+
+// Create two car objects
+const c1 = new Car("Toyota", "Camry");
+const c2 = new Car("Honda", "Civic");
+
+// Outputs
+document.getElementById("result1").innerHTML = 
+  "c1.getDetails(): " + c1.getDetails();  // "Toyota Camry"
+
+document.getElementById("result2").innerHTML = 
+  "c2.getDetails(): " + c2.getDetails();  // "Honda Civic"
+
+document.getElementById("result3").innerHTML = 
+  "Are the function results equal? " + (c1.getDetails() === c2.getDetails()); // false
+
+document.getElementById("result4").innerHTML = 
+  "Are the functions themselves equal? " + (c1.getDetails === c2.getDetails); // true
+</script>
+
+</body>
+</html>
